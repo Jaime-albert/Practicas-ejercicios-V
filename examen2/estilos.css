@@ -1,0 +1,36 @@
+* {
+    padding: 0;/*distancia entre los bordes del elemento y su contenido*/
+}
+
+#divicion {
+    background-color: rgb(62, 66, 60);/*color de fondo*/
+    height: 100vh;/*altura de la ventana del navegador*/
+    width: 100%;/*ancho de la ventana del navegador*/
+    position: fixed;/*posicionamiento del elemento*/
+    top: 0;/*parte superior de la ventana del navegador*/
+    left: 0;/*parte izquierda de la ventana del navegador*/
+}
+
+#formulario {
+    background-color: rgb(62, 66, 60);/*color de fondo*/
+    margin-top: 15%;/*distancia desde la parte superior de la ventana del navegador*/
+    margin-left: 35%;/*margen desde la parte superior y izquierda de la ventana del navegador*/
+    margin-right: 25%;/*margen desde la parte derecha de la ventana del navegador*/
+    padding: 40px;/*espacio entre el borde del elemento y su contenido*/
+    text-align: center;/*alineación del texto al centro*/
+    display: inline-block ;/*mostrar el elemento en línea y permitir que tenga un ancho y alto*/
+    border-radius: 10%;/*bordes redondeados*/
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);/*efecto de sombra*/
+    font-family: 'Times New Roman', Times, serif;/*tipo de letra*/
+    font-size: 20px;/* tamaño de la fuente*/
+    color: rgb(255, 255, 255);/*color del texto*/
+}
+
+#boton {
+    background-color: rgb(0, 0, 0);/*color de fondo del botón*/
+    font-family: 'Times New Roman', Times, serif;/*tipo de letra del botón*/
+    color: rgb(255, 255, 255);/*color del texto del botón*/
+    border-style: double;/*estilo del borde del botón*/
+    border-color: rgb(222, 224, 226);/*color del borde del botón*/
+    cursor: grab;/*cursor al pasar por encima del botón*/
+}
